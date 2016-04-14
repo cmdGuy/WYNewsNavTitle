@@ -72,6 +72,8 @@ static CGFloat const titleScale = 1.3;
     self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
+#pragma mark - 初始化方法
+
 - (void)setUptitleScrollView {
     UIScrollView *titleScrollView = [[UIScrollView alloc] init];
     CGFloat titleScrollViewX = 0;
